@@ -4,7 +4,6 @@ import androidx.annotation.DrawableRes
 import com.patamar.app.R
 import com.patamar.app.data.model.EventCategory
 
-// Ícone de linha de cada categoria (usado nos cards, chips e na tela de preferências).
 @DrawableRes
 fun EventCategory.iconRes(): Int = when (this) {
     EventCategory.SHOW -> R.drawable.ic_cat_music
